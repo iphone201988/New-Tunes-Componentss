@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-2xl: 1580px;
+  --breakpoint-xl: 1366px;
+  --breakpoint-mlg: 1280px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-md: 767px;
+  --breakpoint-sm: 480px;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+}
+
+/* common */
+.btn-pri{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  background: #9900FF;
+  padding: 12px 24px;
+  border-radius: 24px;
+  color: #fff;
+  max-width: 260px;
+  width: 100%;
+  transition: all .3s ease;
+}
+.btn-pri:hover{background: #cb7cff;}
